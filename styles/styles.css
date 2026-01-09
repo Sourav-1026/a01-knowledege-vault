@@ -172,3 +172,65 @@
     line-height: 20px;
     color: #627382;
 }
+
+#brain{
+    /* max-width: 1600px; */
+    padding: 120px;
+    margin: 0 auto;
+}
+
+#brain .brain-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 85%;
+    max-width: 1360px;
+    /* border: 1px solid red; */
+}
+
+.brain-content .brain-img img{
+    width: 600px;
+}
+
+.brain-written .upper-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.brain-written .upper-h1{
+    font-size: 48px;
+    color: #001931;
+}
+
+.brain-written .bottom-h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-written .bottom-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-written ul {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brain-written ul li{
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+

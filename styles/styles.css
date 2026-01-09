@@ -234,3 +234,42 @@
     gap: 6px;
 }
 
+#think{
+    padding-top: 0;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+#think .think-container{
+    padding: 80px 40px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+}
+
+.think-written{
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.think-written h1{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.think-written p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+.think-written .tm-p{
+    margin-bottom: 16px;
+}
+
+.think-written .tl-p{
+    margin-top: 16px;
+}

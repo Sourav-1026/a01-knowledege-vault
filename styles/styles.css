@@ -18,9 +18,19 @@
     padding: 12.5px 16px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.green-btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 .transparent-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
     background-color: transparent;
     color: #FFFFFF;
     font-size: 16px;
@@ -28,13 +38,34 @@
     padding: 12.5px 16px;
     border: 1px solid white;
     border-radius: 4px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.transparent-btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9; 
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 12px 20px;
+    width: auto;
+}
+
+.btn + .btn{
+    margin-left: 16px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-    /* border: 1px solid red; */
 }
 
 .navbar .nav-list{
@@ -56,7 +87,6 @@
 #banner{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    /* vertical-align: middle; */
     max-width: 1600px;
     height: auto;
     padding: 115.5px 120px 179px;
@@ -65,48 +95,86 @@
 #banner .banner-content{
     text-align: center;
     max-width: 800px;
-    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
 .early-ac-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
     background-color: #FFFFFF;
     color: #30B868;
     font-size: 16px;
     max-width: fit-content;
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px 8px 12px;
     border: none;
     border-radius: 1000px;
+    margin: 0 auto;
     margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.early-ac-btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 .banner-content .upper-h1{
-    font-size: 65px;
+    font-size: 70px;
     color: #FFFFFF;
     font-weight: 900
 }
 
 .banner-content .bottom-h1{
-    font-size: 65px;
+    font-size: 70px;
     color: #30B868;
     font-weight: bolder;
     margin-bottom: 16px;
 }
 
-.banner-content p{
+.banner-content .bar-p{
+    max-width: 680px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bar-p p{
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-bottom: 32px;
+     margin-bottom: 32px;
+}
+
+.building-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.building-btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 .banner-content .banner-button{
-    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 #notes .notes-container{
     margin: 0 auto;
-    /* border: 1px solid red; */
     width: 85%;
     max-width: 1360px;
 }
@@ -174,7 +242,6 @@
 }
 
 #brain{
-    /* max-width: 1600px; */
     padding: 120px;
     margin: 0 auto;
 }
@@ -186,7 +253,6 @@
     gap: 60px;
     width: 85%;
     max-width: 1360px;
-    /* border: 1px solid red; */
 }
 
 .brain-content .brain-img img{
@@ -202,12 +268,12 @@
 }
 
 .brain-written .upper-h1{
-    font-size: 48px;
+    font-size: 45px;
     color: #001931;
 }
 
 .brain-written .bottom-h1{
-    font-size: 48px;
+    font-size: 45px;
     color: #001931;
     margin-bottom: 16px;
 }
@@ -270,6 +336,27 @@
     margin-bottom: 16px;
 }
 
+.think-green-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.think-green-btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
 .think-written .tl-p{
     margin-top: 16px;
 }
@@ -302,6 +389,12 @@ footer{
     font-size: 16px;
     line-height: 24px;
     color: #FAFAFA;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: gray;
 }
 
 .footer-content .copyright{
